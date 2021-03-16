@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Fibonacci {
 
-		/* A recursive approach to finding the nth fibonacci, this approach has two
-		main problems with it, First we are loading the call stack repeatedly with
-		new recursiveFibonacci calls which can result in a StackOverflow error,
-		Second we will be solving the same problem multiple times for example to
-		find the 5th fibonacci number we have to solve the 3rd fibonacci number twice
-		this doesnt seem that bad but imagine if we want the 100th fibonacci number */
+	/* A recursive approach to finding the nth fibonacci, this approach has two
+	main problems with it, First we are loading the call stack repeatedly with
+	new recursiveFibonacci calls which can result in a StackOverflow error,
+	Second we will be solving the same problem multiple times for example to
+	find the 5th fibonacci number we have to solve the 3rd fibonacci number twice
+	this doesnt seem that bad but imagine if we want the 100th fibonacci number */
 	private int recursiveFibonacci(int n)
 	{
 		if(n < 2)
