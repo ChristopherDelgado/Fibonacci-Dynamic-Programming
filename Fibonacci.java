@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Fibonacci {
 
-	/* A recursive approach to finding the nth fibonacci, this approach has two
+		/* A recursive approach to finding the nth fibonacci, this approach has two
 		main problems with it, First we are loading the call stack repeatedly with
 		new recursiveFibonacci calls which can result in a StackOverflow error,
 		Second we will be solving the same problem multiple times for example to
